@@ -1,0 +1,40 @@
+		(1)	(2)	(3)
+VARIABLES	LABELS	(Net returns over net outlays) -1	profit	profit
+				
+3.nationality_num	Nationality = 3, English	0.025	1.79***	-0.054
+		(0.079)	(0.45)	(0.094)
+4.nationality_num	Nationality = 4, French	0.026	2.19***	0.078
+		(0.14)	(0.68)	(0.12)
+war	War involving own nationality	0.072	0.52	0.10
+		(0.067)	(0.31)	(0.066)
+neutral	Neutrality of own nation	-0.0067	0.15	-0.025
+		(0.065)	(0.41)	(0.076)
+2.period	Period = 2, 1751-1775	0.14*	-0.0093	0.18***
+		(0.082)	(0.36)	(0.059)
+3.period	Period = 3, 1776-1800	0.33**	0.36	0.49***
+		(0.14)	(0.28)	(0.11)
+4.period	Period = 4, post-1800	0.60***		0.84***
+		(0.20)		(0.17)
+2.MAJMAJBYIMP_num	MAJMAJBYIMP_num = 2, South	0.017	-0.19	-0.017
+		(0.087)	(0.15)	(0.078)
+3.MAJMAJBYIMP_num	MAJMAJBYIMP_num = 3, West	-0.066	0.44**	-0.096
+		(0.049)	(0.21)	(0.060)
+big_port	Big African slave-trading port	-0.061	0.031	-0.031
+		(0.045)	(0.16)	(0.049)
+ln_totalnetexp_silver_ship	Net expenditure on venture (ln(silver grams))	-0.49***	-1.52***	-0.74***
+		(0.17)	(0.18)	(0.16)
+TONMOD	Tonnage standardized on British measured tons, 1773-1835	0.0020***	0.0080***	0.0029***
+		(0.00072)	(0.0015)	(0.00073)
+crowd	Number of embarked enslaved persons per ton	0.24***	0.87***	0.40***
+		(0.069)	(0.13)	(0.10)
+OUTFITTER_experience_d	Not the first voyage of the outfitter	0.067	-0.14	0.034
+		(0.072)	(0.21)	(0.081)
+captain_experience_d	Not the first voyage of the captain	0.076*	-0.090	0.033
+		(0.045)	(0.14)	(0.049)
+Constant	Constant	5.56***	15.6***	8.48***
+		(1.97)	(1.88)	(1.97)
+				
+Observations		282	39	321
+R-squared		0.208	0.930	0.384
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				
